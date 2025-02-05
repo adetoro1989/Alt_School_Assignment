@@ -1,0 +1,147 @@
+button {
+  a:hover {
+    background-color: rgb(7, 227, 14);
+    text-decoration: none;
+  }
+  float: right;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border-top: 10px;
+  padding-top: 0%;
+}
+.nav_pane {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  a:hover {
+    background-color:antiquewhite;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 500px;
+    border-top: 70px;
+    border-bottom: 70px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+  }
+}
+.nav_foot {
+  a:hover {
+    background-color:antiquewhite;
+    font-size: 20px;
+    height: 200px;
+    border-top: 70px;
+    border-bottom: 70px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  margin: auto;
+  width: 50%;
+  float: left;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.bottom {
+  margin: auto;
+  width: 90%;
+}
+header{
+  margin-bottom: 10px;
+  height: 70px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: azure;
+  line-height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#pics {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: beige;
+}
+#pics, div{
+  margin-right: 0%;
+  padding: 5px;
+}
+#introd {
+  background-color:aliceblue;
+  /*border-radius: 30px;*/
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.return_top {
+  a:hover {
+    background-color:antiquewhite;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 200px;
+    border-top: 70px;
+    border-bottom: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+#main_info{
+  background-color:aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+a{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 15px;
+}
+@media (max-width: 768px) {
+  body{
+    
+  }
+}
+
