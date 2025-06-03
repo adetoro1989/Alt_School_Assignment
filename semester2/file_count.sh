@@ -4,7 +4,7 @@
 # STUDENT ID: ALT SCHOOL ID: ALT/SOE/024/1852
 # Date Created: 14-MAY-2025
 # Date Modified: 14-MAY-2025
-# You have to pass an absolute pathas an argument when you want to run the script: Example = ./file_count.sh "/absolute/path/to/directory"
+# You have to pass an absolute path as an argument when you want to run the script: Example = ./file_count.sh "/absolute/path/to/directory"
 
 # Check if an argument is provided
 if [ -z "$1" ]; then
